@@ -1,0 +1,41 @@
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+}
+
+nav {
+  background: #f5f5f5;
+  border-bottom: 1px solid #eee;
+}
+button:hover {
+  background: #1565c0;
+}
+
+input[type="date"] {
+  font-size: 1rem;
+  padding: 0.3em 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  min-width: 320px;
+}
